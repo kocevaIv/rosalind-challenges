@@ -36,5 +36,4 @@ def translation(Rna, RnaCodonTable):
             return protein
         elif proteinStart == True:
             protein = protein + RnaCodonTable[codon]
-            proteinStart = False
     return protein
