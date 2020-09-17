@@ -1,9 +1,9 @@
 def transcribeDna(Dna):
-    Rna=""
+    Rna = ""
     for nucleotide in Dna:
         if nucleotide == "T":
             print(nucleotide)
-            Rna=Rna+"U"
+            Rna = Rna + "U"
         else:
-            Rna=Rna+nucleotide
+            Rna = Rna + nucleotide
     return Rna
